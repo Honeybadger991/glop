@@ -1,0 +1,28 @@
+.agent{
+    padding: 58px 0 75px 0;
+    background: url('../img/china_bg.png') center center/cover no-repeat;
+    &__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__text{
+        padding-top: 20px;
+        text-align: center;
+    }
+    &__name{
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 0.88;
+        color: #fff;
+    }
+    &__descr{
+        padding-top: 20px;
+        width: 984px;
+        min-height: 46px;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 1.42;
+        color: #fff;
+    }
+}

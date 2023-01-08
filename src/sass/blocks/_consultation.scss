@@ -1,0 +1,58 @@
+.consultation{
+    padding: 56px 0 58px 0;
+    &__title{
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+        color: #3a3a3a;
+    }&__wrapper{
+        position: relative;
+        padding-top: 71px;
+    }
+    &__img{
+        padding: 0 22px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 15px;
+        background-color: white;
+        z-index: 5;
+    }
+    &__form{
+        position: relative;
+        width: 100%;
+        height: 166px;
+        border: solid 1px rgba(0, 0, 0, 0.21);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+    }
+    &__input{
+        padding: 0 5px;
+        width: 268px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        border: solid 1px rgba(0, 0, 0, 0.21);
+        border-radius: 10px;
+        input{
+            width: 100%;
+            border:none;
+            font-size: 13px;
+            font-weight: 300;
+            color: rgba(16, 16, 16, 0.7);
+        }
+    }
+    &__bw{
+        position: absolute;
+        top: 142px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0 22px;
+        background-color: #fff;
+    }
+    &__btn{
+        width: 180px;
+    }
+}

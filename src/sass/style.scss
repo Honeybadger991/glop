@@ -1,0 +1,51 @@
+@import 'libs/bootstrap-reboot.min.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import 'variables/variables';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: #2e2e2e;
+    text-transform: uppercase;
+}
+.divider{
+    width: 148px;
+    height: 1px;
+    background-color: var(--main-color);
+    margin: 20px auto 0 auto;
+}
+.subtitle{
+    margin: 0 auto;
+    padding-top: 17px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.14;
+    text-align: center;
+    color: #2e2e2e;
+}
+
+@import 'blocks/buttons';
+@import 'blocks/menu';
+@import 'blocks/promo';
+@import 'blocks/advantages';
+@import 'blocks/more';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/consultation';
+@import 'blocks/manager';
+@import 'blocks/scheme';
+@import 'blocks/comments';
+@import 'blocks/questions';
+@import 'blocks/map';
+@import 'blocks/footer';

@@ -1,0 +1,19 @@
+.map{
+    position: relative;
+    height: 500px;
+    &__info{
+        width: 227px;
+        height: 103px;
+        background-color: var(--main-color);
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.43;
+        text-align: left;
+        color: #fff;
+        opacity: 0.8;
+    }
+}

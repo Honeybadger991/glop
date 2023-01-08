@@ -1,0 +1,55 @@
+.footer{
+    height: 210px;
+    background-color: #25333c;
+    &__wrapper{
+        padding-top: 24px;
+        display: flex;
+        align-items: center;
+    }
+    &__slogan{
+        margin: 0 280px 0 40px;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: left;
+        color: #fff;
+    }
+    &__tel{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        font-size: 14px;
+        font-weight: 300;
+        color: #fff;
+        &_number{
+            font-size: 19px;
+            font-weight: 700;
+            color: #fff;
+            &:hover{
+                color: var(--main-color);
+            }
+        }
+    }
+    &__btn{
+        margin-left: 19px;
+    }
+    &__line{
+        margin: 44px auto 30px auto;
+        width: 1140px;
+        height: 1px;
+        background-color: #fff;
+        opacity: 0.3;
+    }
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        font-size: 13px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.6);
+        a{
+            color: var(--main-color);
+            text-decoration: underline;
+        }
+    }
+}
